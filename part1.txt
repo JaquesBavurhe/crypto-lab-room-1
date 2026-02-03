@@ -1,0 +1,23 @@
+PART 1:
+
+Exercise 1.1: Encrypt (Shift Right 5)
+
+MEET ME AT NOON ------- RJJY RJ FY STTS
+SECURITY -------------- XJHZWNYD
+
+Exercise 1.2: Decrypt (Shift Left 7)
+
+OLSSV --------- HELLO
+
+
+
+
+
+
+
+A	0   G  6    M   12  S   18  Y   24
+B	1   H  7    N   13  T   19  Z   25
+C	2   I  8    O   14  U   20
+D	3   J  9    P   15  V   21
+E	4   K  10   Q   16  W   22
+F	5   L  11   R   17  X   23
