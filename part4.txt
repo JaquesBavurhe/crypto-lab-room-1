@@ -1,0 +1,22 @@
+Part 4: RSA Asymmetric Encryption
+Exercise 4.1: RSA with Small Numbers
+
+Given:
+Public Key: (n = 33, e = 7)
+Private Key: (n = 33, d = 3)
+Message M = 2
+
+RSA Encryption Formula:
+C = M^e mod n
+
+Step 1: Calculate M^e
+2^7 = 128
+
+Step 2: Apply modulo n
+128 mod 33 = 29
+
+Step 3: Ciphertext
+C = 29
+
+Final Answer:
+The encrypted ciphertext is 29.

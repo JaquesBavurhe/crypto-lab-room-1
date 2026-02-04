@@ -8,3 +8,6 @@ ROOM 1 PARTICIPANTS
 6. ⁠Godana Emiru
 7. Raissa Bavurhe
 8. Morouj Ahmed Adam
+9. Nasra Hirsi Awale
+10. Simon Lodongo Taban
+
