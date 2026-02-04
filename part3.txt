@@ -1,0 +1,32 @@
+Exercise 3.1: Manual Encryption
+Encrypt: ATTACK Keyword: LEMON
+
+A=0 B=1 C=2 D=3 E=4 F=5 G=6 H=7 I=8 J=9
+K=10 L=11 M=12 N=13 O=14 P=15 Q=16 R=17
+S=18 T=19 U=20 V=21 W=22 X=23 Y=24 Z=25
+ 
+encrypting:
+
+ Plain  | Keyword | P Pos | K Pos | (P+K)%26    | Cipher |
+   
+  A         L        0        11        11          L
+  T         E        19       4         23          X
+  T         M        19       12      31-26 = 5     F
+  A         O        0        14        14          O
+  C         N        2        13        15          P
+  K         L        10       11        21          V
+
+The encrypted value of ATTACK using LEMON keyword is LXFOPV
+
+
+Decrypt:
+
+ Plain  | Keyword | P Pos | K Pos | (P-K)%26    | Cipher |
+   
+  L         L       11        11        0           A
+  X         E       23        4         19          T
+  F         M       5         12   (5-12)+26 = 19   T         
+  O         O       14        14        0           A
+  P         N       15        13        2           C
+  V         L       21        11       10           K
+
